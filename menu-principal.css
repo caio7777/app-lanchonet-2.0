@@ -1,0 +1,133 @@
+* {
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+  margin-right: 5px;
+}
+
+label {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(128, 79, 17);
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;  
+  
+}
+
+.flutua {
+    width: 800%;
+    list-style: none;
+    font-size: 100%;
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 100%;
+}
+
+body {
+    width: 100%;
+    border: 2px solid white;
+    overflow-x: auto;
+    height: 98.6vh;
+    background-image: linear-gradient(rgb(135, 111, 82), rgb(135, 111, 82));
+}
+
+.m2 {
+    position: absolute;
+    right: 50px;
+}
+
+hr {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.menu {
+    position: relative;
+    left: -17px;
+    width: 70px;
+    height: 70px;
+}
+
+input[type="checkbox"] {
+    position: relative;
+    display: none;
+}
+
+.img_1 {
+    width: 70px;
+}
+
+.img_2 {
+    width: 70px;
+}
+
+ul {
+    position: relative;
+    list-style: none;
+    font-size: 18px;
+}
+
+ul li {
+    width: 45%;
+    height: 42px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(128, 79, 17);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 0;
+}
+
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.nome_m {
+    width: 150px;
+    height: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.menu-escorrega {
+    position: relative;
+    left: -690px;
+    transition: all 2s;
+    box-sizing: border-box;
+    
+    margin-bottom: 35px;
+}
+
+input[type="checkbox"]:checked~.menu-escorrega {
+    transform: translateX(690px);
+}
+
+p {
+    font-size: 1em;
+}
+
+li:hover{
+  border: 1px solid white;
+}
+#cadastrar{ 
+    margin-left: 5px;
+    font-size: 120%;
+}

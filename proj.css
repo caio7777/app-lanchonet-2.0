@@ -1,0 +1,430 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia;
+    
+}
+/*cabeçalho*/
+body{
+    /* background-image: linear-gradient(rgb(135, 111, 82), rgb(135, 111, 82)); */
+    background: #FFFFFF url(../pizza-show.jpg) no-repeat right top fixed;
+
+}
+
+p{
+    text-align: center;
+    color:black
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color:white
+}
+
+/*galeria*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    overflow-x: hidden;
+    background-color: white;
+    border-radius: 15px;
+    min-height: 100vh;
+    margin-bottom: 20px;
+
+    
+    
+}
+/*card com a area da imagem ou seja todo */
+.card{
+    display: inline-block;
+    width: 201px;
+    margin: 25px;
+    background-size: cover;
+    border: 2px solid rgb(128, 79, 17);
+    border-radius: 15px;
+    background-color:darkgray;
+    
+    
+}
+/*area que comporta a imagem*/
+.card-image{
+    position: relative;
+    height: 255px;
+    background-size: cover;
+    top: 2.5px;
+    border-radius: 15px;
+}
+/*carde/parte que esta com o link saiba mais*/
+.card-descriçao{
+    padding: 10px 10px;
+    border: 1px solid black;
+    background-color: bisque;
+    border-radius: 15px;
+    
+}
+
+.frase{
+    color: white;
+}
+
+
+/*botoes*/
+.btn{
+    display: block;
+    text-decoration: none;
+    border-radius: 25px;
+    border:2px solid white;
+    color:white;
+    padding: 10px;
+    margin-top: 10px;
+    padding-right:60px;
+    padding-left:60px;
+    background-color: rgb(128, 79, 17);
+    transition: .5s;
+}
+/*paragrafo acima do botao*/
+p{
+    padding: 10px;
+}
+/* hover dos botoes*/
+.btn_1:hover{
+    background-color:white;
+    color: black;
+    border-color: black
+    
+}
+
+/*botao de voltar*/
+
+.btnvoltar{
+    display: inline-block;
+    background-color: black;
+    padding: 5px;
+    border-radius: 15px;
+    width: 70px;
+    margin: 50px;
+    text-align: center;
+    /* position: relative;
+    left: 580px; */
+    
+    
+
+}
+
+.voltar{
+    text-decoration: none;
+    color: white;
+}
+
+.voltar:hover{
+    background-color: white;
+    color: black; /*cor da letra do voltar*/
+    padding: 6px;/*espaço de dentro em branco*/
+    width: 50px;/**/
+    border-radius: 15px;/* arredondamento de bordas */
+    transition: .4s;/* tempo de transiçao da animaçao da bolinha branca do voltar*/
+    
+}
+img{
+    background-position: center;
+    border-radius: 15px;
+}
+
+.hj{
+    display: inline;
+}
+
+.jk{
+    display: inline;
+}
+
+#carrinho{
+    display: flex;
+    justify-content: right;
+    width: 30px;
+    background-color: #ffffff;
+    border: 2px solid black;
+    padding: 10px;
+    float: right;
+    position:fixed;
+    top:0px
+  
+   
+}
+
+#tamanho{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade{
+    width: 20px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+#tamanho2{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade2{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+.rgl_tamnho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column ;
+}
+
+#alert_qtd{
+    color: red;
+    display: none;
+}
+
+#alert_tamanho{
+    color: red;
+    display: none;
+}
+
+#sucesso_pedido{
+    display: none;
+    color: green;
+}
+/* 2 codigo */
+
+#tamanho2{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade2{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+#tamanho2{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade2{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+.rgl_tamnho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column ;
+}
+
+#alert_qtd2{
+    color: red;
+    display: none;
+}
+
+#alert_tamanho2{
+    color: red;
+    display: none;
+}
+
+#sucesso_pedido2{
+    display: none;
+    color: green;
+}
+/*-----------*/
+ 
+
+#tamanho3{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade3{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+#tamanho3{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade3{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+.rgl_tamnho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column ;
+}
+
+#alert_qtd3{
+    color: red;
+    display: none;
+}
+
+#alert_tamanho3{
+    color: red;
+    display: none;
+}
+
+#sucesso_pedido3{
+    display: none;
+    color: green;
+}
+ 
+#tamanho4{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade4{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+#tamanho4{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade4{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+.rgl_tamnho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column ;
+}
+
+#alert_qtd4{
+    color: red;
+    display: none;
+}
+
+#alert_tamanho4{
+    color: red;
+    display: none;
+}
+
+#sucesso_pedido4{
+    display: none;
+    color: green;
+}
+/*= codigo 5 =*/
+
+#tamanho5{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade5{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+#tamanho5{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade5{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+.rgl_tamnho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column ;
+}
+
+#alert_qtd5{
+    color: red;
+    display: none;
+}
+
+#alert_tamanho5{
+    color: red;
+    display: none;
+}
+
+#sucesso_pedido5{
+    display: none;
+    color: green;
+}
+ 
+#tamanho5{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade5{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+#tamanho5{
+    width: 20px;
+    text-align: center;
+}
+
+#quantidade5{
+    width: 20px;
+    display: flex;
+    text-align: center;
+}
+.rgl_tamnho{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column ;
+}
+
+#alert_qtd5{
+    color: red;
+    display: none;
+}
+
+#alert_tamanho5{
+    color: red;
+    display: none;
+}
+
+#sucesso_pedido5{
+    display: none;
+    color: green;
+}
+/*================================================================================*/
+#verifica-tamanho{
+    display: none;
+    color: red;
+}
+
+#verifica-tamanho2{
+    display: none;
+    color: red;
+}
+#verifica-tamanho3{
+    display: none;
+    color: red;
+}
+#verifica-tamanho4{
+    display: none;
+    color: red;
+}#verifica-tamanho5{
+    display: none;
+    color: red;
+}

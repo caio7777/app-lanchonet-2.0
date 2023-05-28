@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/estilo.css" />
+  </head>
+  <body>
+    <div class="caixa">
+      <div class="caixa-interna">
+        <h1>Cadastro</h1>
+        <div>
+          <label for="">Nome</label>
+        </div>
+        <div>
+          <input
+            id="nome"
+            type="text"
+            autofocus
+            placeholder="digite seu nome"
+          />
+        </div>
+        <p id="verifica_nome">por favor digite seu nome!</p>
+        <div>
+          <label for="">bairro</label>
+        </div>
+        <div>
+          <input
+            id="bairro"
+            type="text"
+            autofocus
+            placeholder="digite seu bairro"
+          />
+        </div>
+        <p id="verifica_bairro">por favor digite seu bairro!</p>
+        <div>
+          <label for="">nome da rua</label>
+        </div>
+        <div>
+          <input
+            id="rua"
+            type="text"
+            autofocus
+            placeholder="digite seu endereço"
+          />
+        </div>
+        <p id="verifica_rua">por favor digite o nome da sua rua!</p>
+        <div>
+          <label for="">numero da casa</label>
+        </div>
+        <div>
+          <input
+            id="numero"
+            type="number"
+            autofocus
+            placeholder="digite o numero de sua casa"
+          />
+        </div>
+        <p id="verifica_numero_casa">por favor digite o numero da sua casa!</p>
+        <div>
+          <button id="enviar" onclick="salvando()" type="button">
+            cadastrar
+          </button>
+          <p id="sucesso">cadastro realizado com sucesso!</p>
+        </div>
+        <br />
+        <a href="./index.html" id="v-menu">voltar ao menu</a>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
+  </body>
+</html>

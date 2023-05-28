@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        display: flex;
+        justify-content: center;
+      }
+      td,
+      th {
+        text-align: center;
+        padding: 5px;
+      }
+      .cont-vitrine {
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+      }
+      .vitrine:hover {
+        cursor: pointer;
+      }
+      tr {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        height: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>suas compras</h1>
+    <div class="cont-vitrine">
+      <div id="esconde">
+        <a id="value_pg" href="vitrine.html" name="haburguer">
+          <img class="vitrine" src="/vitrine.png" width="50px" alt="" /> </a
+        ><br />
+        <label for="">continuar comprando</label>
+      </div>
+
+      <div class="cont-vitrine_finaliza">
+        <div>
+          <a href="#">
+            <img
+              class="vitrine"
+              src="/carrinho-de-compras.png"
+              width="50px"
+              alt=""
+            /> </a
+          ><br />
+          <label for="">finalizr compra</label>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <br />
+    <div class="box-table">
+      <center>
+        <table id="tabela" border="1px">
+          <thead>
+            <th>id</th>
+            <th>item</th>
+            <th>valor</th>
+            <th>quantidade</th>
+            <th>tamanho</th>
+          </thead>
+        </table>
+      </center>
+    </div>
+    <script src="./carrinho_lista.js"></script>
+  </body>
+</html>

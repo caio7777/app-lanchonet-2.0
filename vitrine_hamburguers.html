@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>galeria de fotos</title>
+    <link rel="stylesheet" href="proj.css" />
+    <style>
+      #especificaçao {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 5px 5px 5px;
+        cursor: pointer;
+        text-align: center;
+      }
+      #especifica {
+        position: relative;
+        display: none;
+        margin-top: 15px;
+      }
+
+      #fechar_especificaçao {
+        position: relative;
+        margin-top: 10px;
+        text-shadow: 5px 5px 5px;
+        display: none;
+        text-align: center;
+      }
+      #label_qtd {
+        position: relative;
+        padding-bottom: 10px;
+      }
+
+      /* card dois*/
+
+      #especificaçao_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 5px 5px 5px;
+        cursor: pointer;
+        text-align: center;
+      }
+      #especifica2 {
+        position: relative;
+        display: none;
+        margin-top: 15px;
+      }
+
+      #fechar_especificaçao_2 {
+        position: relative;
+        margin-top: 10px;
+        text-shadow: 5px 5px 5px;
+        display: none;
+        text-align: center;
+        cursor: pointer;
+      }
+      #label_qtd {
+        position: relative;
+        padding-bottom: 10px;
+      }
+
+      /* card tres*/
+
+      #especificaçao_3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 5px 5px 5px;
+        cursor: pointer;
+        text-align: center;
+      }
+      #especifica3 {
+        position: relative;
+        display: none;
+        margin-top: 15px;
+      }
+
+      #fechar_especificaçao_3 {
+        position: relative;
+        margin-top: 10px;
+        text-shadow: 5px 5px 5px;
+        display: none;
+        text-align: center;
+        cursor: pointer;
+      }
+      #label_qtd {
+        position: relative;
+        padding-bottom: 10px;
+      }
+
+      /* card quatro*/
+
+      #especificaçao_4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 5px 5px 5px;
+        cursor: pointer;
+        text-align: center;
+      }
+      #especifica4 {
+        position: relative;
+        display: none;
+        margin-top: 15px;
+      }
+
+      #fechar_especificaçao_4 {
+        position: relative;
+        margin-top: 10px;
+        text-shadow: 5px 5px 5px;
+        display: none;
+        text-align: center;
+        cursor: pointer;
+      }
+      #label_qtd {
+        position: relative;
+        padding-bottom: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="carrinho_compras">
+      <a id="btn_carrinho" href="/carrinho_hamburguer.html" name="haburguer">
+        <img
+          id="carrinho"
+          id="btn_carrinho"
+          src="/h-simples.png"
+          alt="carrinho"
+          width="50px"
+      /></a>
+    </div>
+    <h1>-Vitrine de pizza-</h1>
+    <p class="frase">nada melhor que uma pizza e uma meia quentinha no pé!</p>
+    <div class="container">
+      <!-- esta div está na abertura do conteiner----------------------------->
+      <div class="card" id="card1">
+        <!-- esta div  aberta e do card !-->
+        <div class="card-image">
+          <img
+            src="/h-simples.png"
+            alt="pizza marguerita"
+            width="195px"
+            height="250px"
+          />
+        </div>
+        <!-- card que contem a imagem, esta div deve e-->
+        <div class="card-descriçao">
+          <!----------------->
+          <p>-hamburguer simples-</p>
+          <!---->
+          <div class="rgl_tamnho">
+            <label id="label_qtd" for="">quantidade</label>
+            <p id="alert_qtd">digite a quantidade por favor!</p>
+            <center>
+              <input type="number" name="" id="quantidade" />
+            </center>
+          </div>
+          <label for="">acrescimo</label>
+          <hr />
+          <p id="fechar_especificaçao">click para fechar!</p>
+          <p id="especificaçao">click para especificar os acrescimos!</p>
+          <textarea name="" id="especifica" cols="20" rows="10"></textarea>
+          <button class="btn" id="btn_1_hamburger">
+            adicionar ao carrinho
+          </button>
+          <!---->
+        </div>
+        <!---------------------------------------->
+      </div>
+      <!------------------------------------------------------------------------------------>
+      <div class="card" id="card1">
+        <!-- esta div  aberta e do card !-->
+        <div class="card-image">
+          <img
+            src="/x-burguer.jpg"
+            alt="pizza marguerita"
+            width="195px"
+            height="250px"
+          />
+        </div>
+        <!-- card que contem a imagem, esta div deve e-->
+        <div class="card-descriçao">
+          <!----------------->
+          <p>-x-burguer-</p>
+          <!---->
+          <div class="rgl_tamnho">
+            <label for="">quantidade</label>
+            <p id="alert_qtd2">digite a quantidade por favor!</p>
+            <center>
+              <input type="number" name="" id="quantidade2" />
+            </center>
+            <label for="">acrescimo</label>
+            <hr />
+            <p id="fechar_especificaçao_2">click para fechar!</p>
+            <p id="especificaçao_2">click para especificar os acrescimos!</p>
+            <textarea name="" id="especifica2" cols="20" rows="10"></textarea>
+          </div>
+          <button class="btn" id="btn_2_hamburguer">
+            adicionar ao carrinho
+          </button>
+          <!---->
+        </div>
+        <!---------------------------------------->
+      </div>
+      <!---------------------------------------->
+      <!--fim-->
+      <div class="card" id="card1">
+        <!-- esta div  aberta e do card !-->
+        <div class="card-image">
+          <img
+            src="/ex-tudo-duplo.jpg"
+            alt="pizza marguerita"
+            width="195px"
+            height="250px"
+          />
+        </div>
+        <!-- card que contem a imagem, esta div deve e-->
+        <div class="card-descriçao">
+          <!----------------->
+          <p>-x-tudo-</p>
+          <!---->
+          <div class="rgl_tamnho">
+            <label for="">quantidade</label>
+            <p id="alert_qtd3">digite a quantidade por favor!</p>
+            <center>
+              <input type="number" name="" id="quantidade3" />
+            </center>
+          </div>
+          <label for="">acrescimo</label>
+          <hr />
+          <p id="fechar_especificaçao_3">click para fechar!</p>
+          <p id="especificaçao_3">click para especificar os acrescimos!</p>
+          <textarea name="" id="especifica3" cols="20" rows="10"></textarea>
+          <button class="btn" id="btn_3_hamburguer">
+            adicionar ao carrinho
+          </button>
+          <!---->
+        </div>
+        <!---------------------------------------->
+      </div>
+      <!---------------------------------------->
+      <!--fim-->
+      <div class="card" id="card1">
+        <!-- esta div  aberta e do card !-->
+        <div class="card-image">
+          <img
+            src="/x-bacon-burguer.jpg"
+            alt="pizza marguerita"
+            width="195px"
+            height="250px"
+          />
+        </div>
+        <!-- card que contem a imagem, esta div deve e-->
+        <div class="card-descriçao">
+          <!----------------->
+          <p>-x-bacon-</p>
+          <!---->
+          <div class="rgl_tamnho">
+            <label for="">quantidade</label>
+            <p id="alert_qtd4">digite a quantidade por favor!</p>
+            <center>
+              <input type="number" name="" id="quantidade4" />
+            </center>
+          </div>
+          <label for="">acrescimo</label>
+          <hr />
+          <p id="fechar_especificaçao_4">click para fechar!</p>
+          <p id="especificaçao_4">click para especificar os acrescimos!</p>
+          <textarea name="" id="especifica4" cols="20" rows="10"></textarea>
+          <button class="btn" id="btn_4_hamburguer">
+            adicionar ao carrinho
+          </button>
+          <!---->
+        </div>
+        <!---------------------------------------->
+      </div>
+      <!---------------------------------------->
+      <!--fim-->
+      <div class="btnvoltar">
+        <a class="voltar" href="index.html">Voltar</a>
+      </div>
+    </div>
+  </body>
+  <script src="/vitrine-hamburguers.js"></script>
+</html>
