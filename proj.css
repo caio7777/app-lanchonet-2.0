@@ -168,6 +168,15 @@ img{
     position: relative;
     margin-bottom: 10px;
 }
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
 #tamanho2{
     width: 20px;
     text-align: center;
