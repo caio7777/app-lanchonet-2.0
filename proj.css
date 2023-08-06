@@ -154,7 +154,8 @@ img{
     padding: 10px;
     float: right;
     position:fixed;
-    top:0px
+    top:0px;
+    z-index: 10;
   
    
 }
