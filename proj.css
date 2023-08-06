@@ -7,7 +7,7 @@
 /*cabeçalho*/
 body{
     /* background-image: linear-gradient(rgb(135, 111, 82), rgb(135, 111, 82)); */
-    background: #FFFFFF url(../pizza-show.jpg) no-repeat right top fixed;
+    background: #FFFFFF url(./pizza-show.jpg) no-repeat right top fixed;
     display:flex;
     flex-direction: column;
 }
@@ -21,9 +21,14 @@ h1{
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px;
-    color:white
+    color:black;
 }
+@media screen and (min-width:360px){
+    h1{
+        color:white
+    }
 
+}
 /*galeria*/
 
 .container{
