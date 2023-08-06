@@ -8,7 +8,8 @@
 body{
     /* background-image: linear-gradient(rgb(135, 111, 82), rgb(135, 111, 82)); */
     background: #FFFFFF url(../pizza-show.jpg) no-repeat right top fixed;
-
+    display:flex;
+    flex-direction: column;
 }
 
 p{
@@ -101,6 +102,7 @@ p{
 /*botao de voltar*/
 
 .btnvoltar{
+    
     display: inline-block;
     background-color: black;
     padding: 5px;
@@ -108,11 +110,7 @@ p{
     width: 70px;
     margin: 50px;
     text-align: center;
-    /* position: relative;
-    left: 580px; */
-    
-    
-
+  
 }
 
 .voltar{
