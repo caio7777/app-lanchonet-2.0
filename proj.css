@@ -7,7 +7,7 @@
 /*cabeçalho*/
 body{
     /* background-image: linear-gradient(rgb(135, 111, 82), rgb(135, 111, 82)); */
-    background: #FFFFFF url(./pizza-show.jpg) no-repeat right top fixed;
+    background: #FFFFFF url(pizza-show.jpg) no-repeat right top fixed;
     display:flex;
     flex-direction: column;
 }
