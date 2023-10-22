@@ -20,11 +20,13 @@ let cell_item = linha.insertCell(1)
 let cell_valor = linha.insertCell(2)
 let cell_quantidade = linha.insertCell(3)
 let cell_especificaçoes = linha.insertCell(4)
+let cell_subtotal = linha.insertCell(5)
 cell_id.innerHTML= trasform[i].id
 cell_item.innerHTML= trasform[i].item;
 cell_valor.innerHTML= trasform[i].valor.toFixed(2)
 cell_quantidade.innerHTML= trasform[i].quantidade;
 cell_especificaçoes.innerHTML= trasform[i].especificaçoes
+cell_subtotal.innerHTML = trasform[i].quantidade * trasform[i].valor 
 
 //console.log(tabela)
 }
